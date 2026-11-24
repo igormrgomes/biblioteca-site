@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Sistema da Biblioteca da Associação de Moradores do Jardim das Acácias."
+    >
+    <title>Biblioteca da Associação de Moradores do Jardim das Acácias</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span class="brand-name">
+          Biblioteca da Associação de Moradores do Jardim das Acácias
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+
+      <nav class="main-navigation" id="main-navigation" aria-label="Navegação principal">
+        <a href="livro.html">Cadastrar livro</a>
+        <a href="lista_livro.html">Acervo</a>
+        <a href="emprestimo.html">Novo empréstimo</a>
+        <a href="lista_emprestimo.html">Empréstimos</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="welcome">
+        <p class="eyebrow">Jardim das Acácias</p>
+        <h1>Boas-vindas à biblioteca comunitária</h1>
+        <p class="welcome-description">
+          Consulte o acervo e acompanhe os empréstimos da nossa comunidade em um só lugar.
+        </p>
+        <a class="primary-link" href="lista_livro.html">Explorar o acervo</a>
+      </section>
+
+      <section class="quick-access" aria-labelledby="quick-access-title">
+        <div class="section-heading">
+          <p class="eyebrow">Acesso rápido</p>
+          <h2 id="quick-access-title">O que você precisa fazer?</h2>
+        </div>
+        <div class="action-grid">
+          <a class="action-card" href="livro.html">
+            <span class="action-number" aria-hidden="true">01</span>
+            <span class="action-title">Cadastrar um livro</span>
+            <span class="action-description">Adicionar um título ao acervo da biblioteca.</span>
+          </a>
+          <a class="action-card" href="lista_livro.html">
+            <span class="action-number" aria-hidden="true">02</span>
+            <span class="action-title">Consultar o acervo</span>
+            <span class="action-description">Encontrar livros e verificar disponibilidade.</span>
+          </a>
+          <a class="action-card" href="emprestimo.html">
+            <span class="action-number" aria-hidden="true">03</span>
+            <span class="action-title">Registrar empréstimo</span>
+            <span class="action-description">Registrar a retirada de um livro por um leitor.</span>
+          </a>
+          <a class="action-card" href="lista_emprestimo.html">
+            <span class="action-number" aria-hidden="true">04</span>
+            <span class="action-title">Acompanhar empréstimos</span>
+            <span class="action-description">Consultar empréstimos e datas de devolução.</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Leitura, cuidado e comunidade no Jardim das Acácias.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
